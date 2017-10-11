@@ -1,0 +1,155 @@
+
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+body {
+	font-size:100%;
+	font-family:Exo;
+	background:#0c0c0c;
+}
+
+header {
+	width:100%;
+	/* background: linear-gradient(to top, #29323c 0%, #485563 100%); */
+	background-image:url("../images/58eb38af35d32.png");
+	background-position:center top;
+	height:100vh;
+}
+
+.Altarius {
+	width: 100%;
+}
+
+header img {
+	width:70%;
+	max-width:1310px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    display:none;
+}
+
+header img:last-of-type {
+	max-width:1120px;
+	width:50%;
+	display:block;
+	opacity:0;
+}
+
+nav {
+	margin-bottom:10%;
+}
+
+nav ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	background:black;
+}
+
+nav ul li {
+	transition:box-shadow .15s, background .15s;
+	font-family:Maven Pro;
+	float:left;
+	width:16.6666667%;
+	text-align:center;
+	padding:1.5% 0%;
+	background:rgba(19, 17, 22, .6);
+	color:rgba(234,28,13,.7);
+	font-size:140%;
+	border: 1px solid #000;
+	border-left:none;border-right:none;
+	box-sizing: border-box;
+}
+
+nav ul li:hover, nav ul li:focus {
+	box-shadow: inset 0px 0px 15px 1px rgba(0,0,0,0.75);
+	background:rgba(19, 17, 22, .5);
+	color:rgba(234,28,13,1);
+}
+
+
+.hidden {
+	display:none;
+}
+
+.content {
+	color:white;
+	width:65%;
+	margin:0 auto;
+	margin-bottom:10%;
+	font-family:Roboto;
+}
+
+section {
+	margin:0 auto;
+	box-shadow: inset 0px 0px 15px 1px rgba(0,0,0,0.75);
+	border:1px solid black;
+}
+
+#welcome {
+	transition:width .3s, height .3s;
+	width:60%;
+}
+
+section h1 {
+	text-align:center;
+	color:#CC3900;
+	font-family:Syncopate;
+	transform:uppercase;
+}
+
+section span {
+	font-family:Syncopate;
+	color:#353535;
+	cursor:pointer;
+	margin:0;padding:0% 1%;
+}
+
+section span:hover, section span:focus {
+	color:#3E6990;
+}
+
+
+section .frame {
+	max-width:720px;
+	height:350px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+section .frame .slide {
+	width:5760px;
+}
+
+section .frame .slide img {
+	float:right;
+	max-width:720px;
+}
+
+
+section p {
+	padding:1%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    nav ul li {
+    	display:block;
+    	width:100%;
+    	color:red;
+    }
+}
